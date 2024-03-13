@@ -10,11 +10,7 @@ const cors=require("cors");
 
 
 app.use(express.json());
-app.use(cors(
-  origin: ["https://clothing-e-commerce-lovat.vercel.app/"],
-  methods:["POST","GET"],
-  credentials:true
-))
+app.use(cors());
 
 mongoose.connect("mongodb+srv://nachiketnijap:nani3005@cluster0.fzmoseu.mongodb.net/e-commerce");
 
