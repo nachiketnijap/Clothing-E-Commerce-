@@ -15,7 +15,7 @@ app.use(cors());
 mongoose.connect("mongodb+srv://nachiketnijap:nani3005@cluster0.fzmoseu.mongodb.net/e-commerce");
 
 // API createConnection
-app.get("/https://clothing-e-commerce-zmj2.onrender.com/",(req,res)=>{
+app.get("/",(req,res)=>{
   res.send("Express App is running ")
 })
 
